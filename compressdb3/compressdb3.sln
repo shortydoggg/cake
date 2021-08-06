@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compressdb3", "compressdb3.vcproj", "{EC38FDA9-300C-458A-8E4F-6DCED4F90C74}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compressdb4", "compressdb4.vcproj", "{EC38FDA9-300C-458A-8E4F-6DCED4F90C74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
