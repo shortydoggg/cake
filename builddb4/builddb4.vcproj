@@ -16,8 +16,8 @@
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory=".\builddb3___Win32_Debug"
-			IntermediateDirectory=".\builddb3___Win32_Debug"
+			OutputDirectory=".\builddb4___Win32_Debug"
+			IntermediateDirectory=".\builddb4___Win32_Debug"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
 			UseOfMFC="0"
@@ -38,7 +38,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				TypeLibraryName=".\builddb3___Win32_Debug/builddb3.tlb"
+				TypeLibraryName=".\builddb4___Win32_Debug/builddb4.tlb"
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
@@ -47,10 +47,10 @@
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile=".\builddb3___Win32_Debug/builddb3.pch"
-				AssemblerListingLocation=".\builddb3___Win32_Debug/"
-				ObjectFile=".\builddb3___Win32_Debug/"
-				ProgramDataBaseFileName=".\builddb3___Win32_Debug/"
+				PrecompiledHeaderFile=".\builddb4___Win32_Debug/builddb4.pch"
+				AssemblerListingLocation=".\builddb4___Win32_Debug/"
+				ObjectFile=".\builddb4___Win32_Debug/"
+				ProgramDataBaseFileName=".\builddb4___Win32_Debug/"
 				BrowseInformation="1"
 				WarningLevel="3"
 				SuppressStartupBanner="true"
@@ -65,17 +65,16 @@
 				Culture="2055"
 			/>
 			<Tool
-				Name="VCPreLinkEventTool"
-			/>
+				Name="VCPreLinkEventTool".\builddb4___Win32_Release/			/>
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
-				OutputFile="E:\scdb4\sc_builddb4.exe"
+				OutputFile=".\builddb4___Win32_Release/builddb4.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\builddb3___Win32_Debug/builddb3.pdb"
+				ProgramDatabaseFile=".\builddb4___Win32_Debug/builddb4.pdb"
 				SubSystem="1"
 			/>
 			<Tool
@@ -105,8 +104,8 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory=".\builddb3___Win32_Release"
-			IntermediateDirectory=".\builddb3___Win32_Release"
+			OutputDirectory=".\builddb4___Win32_Release"
+			IntermediateDirectory=".\builddb4___Win32_Release"
 			ConfigurationType="1"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC70.vsprops"
 			UseOfMFC="0"
@@ -127,7 +126,7 @@
 			/>
 			<Tool
 				Name="VCMIDLTool"
-				TypeLibraryName=".\builddb3___Win32_Release/builddb3.tlb"
+				TypeLibraryName=".\builddb4___Win32_Release/builddb4.tlb"
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
@@ -138,10 +137,10 @@
 				PreprocessorDefinitions="WIN32,NDEBUG,_CONSOLE"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="0"
-				PrecompiledHeaderFile=".\builddb3___Win32_Release/builddb3.pch"
-				AssemblerListingLocation=".\builddb3___Win32_Release/"
-				ObjectFile=".\builddb3___Win32_Release/"
-				ProgramDataBaseFileName=".\builddb3___Win32_Release/"
+				PrecompiledHeaderFile=".\builddb4___Win32_Release/builddb4.pch"
+				AssemblerListingLocation=".\builddb4___Win32_Release/"
+				ObjectFile=".\builddb4___Win32_Release/"
+				ProgramDataBaseFileName=".\builddb4___Win32_Release/"
 				WarningLevel="3"
 				SuppressStartupBanner="true"
 			/>
@@ -160,10 +159,10 @@
 				Name="VCLinkerTool"
 				AdditionalOptions="/MACHINE:I386"
 				AdditionalDependencies="odbc32.lib odbccp32.lib"
-				OutputFile="C:\db4\builddb4.exe"
+				OutputFile=".\builddb4___Win32_Release/builddb4.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				ProgramDatabaseFile=".\builddb3___Win32_Release/builddb3.pdb"
+				ProgramDatabaseFile=".\builddb4___Win32_Release/builddb4.pdb"
 				SubSystem="1"
 			/>
 			<Tool
