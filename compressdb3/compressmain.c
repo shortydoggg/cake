@@ -111,7 +111,7 @@ main()
 	progstart = clock();
 
 	//for(n=2;n<=MAXPIECES;n++)
-	for(n=2;n<=6;n++)
+	for(n=2;n<=MAXPIECE;n++)
 		{
 		j=builddb(n);
 		printf("\ndb %i done",n);
