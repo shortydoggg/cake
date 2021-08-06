@@ -57,12 +57,12 @@ int lookup(position *p, int color)
 	//	return color==BLACK?LOSS:WIN;
 	//if(wm+wk==0)
 	//	return color==WHITE?LOSS:WIN;
-	// reverse the signs above for suicide checkers!
-	// SUICIDE CHECKERS
+	// reverse the colors above for suicide checkers!
+
 	if(bm+bk==0)
-		return color==WHITE?LOSS:WIN;
-	if(wm+wk==0)
 		return color==BLACK?LOSS:WIN;
+	if(wm+wk==0)
+		return color==WHITE?LOSS:WIN;
 
 	
 	
