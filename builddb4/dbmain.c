@@ -264,7 +264,7 @@ int buildsubdb(int bm,int bk,int wm,int wk)
 	if(bm+bk>MAXPIECE)
 		return 0;
 
-	// more bk than wk in case of equal number of pieces - we don't compute it - again
+	// more wk than bk in case of equal number of pieces - we don't compute it - again
 	// we can reverse the position and look it up.
 	if(wk+wm == bk+bm)
 		{
