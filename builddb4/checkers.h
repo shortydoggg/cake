@@ -12,7 +12,7 @@
 // WARNING! the current code will not work for MAXPIECE > 4!
 // NOT ANY MORE!
 //#define MAXPIECE ((MAXPIECES+1)/2)
-#define MAXPIECE 7
+#define MAXPIECE 4
 
 
 // ---------------------------------------------------------------------------------
