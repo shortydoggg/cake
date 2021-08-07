@@ -110,7 +110,7 @@
 //	I adapted builddb for suicide checkers and found the code to be horrible. I improved
 //	its readability in many places, breaking down the huge function buildsubdbslice
 //	into much smaller chunks. I also made builddb able to compute databases with more than
-//	4 pieces for one side (MAXPIECES is no longer limited to 4).
+//	4 pieces for one side (MAXPIECE is no longer limited to 4).
 //	I put the database name into a separate function, so changing the names of the output
 //	files is only one small change in the function setdbname().
 //	TODO: 
