@@ -5,5 +5,5 @@ The original builddb4 and compressdb3 code was cleaned up for building 8-man dat
 
 Please note that the 8-man databases are large, about 34.5GB uncompressed, and about 4.3GB after compression; however, lower values of MAXPIECES in the code produce much smaller sized databases.  Note that MAXPIECES>4 could take a very long time to build the databases, depending on your computer.
 
-For the releases, place the builddb4.exe (or builddbx.exe) and the compressdb4.exe (or compressdbx.exe) files in a folder called db, preferably with this same dbgen.bat file either inside or just outside of the db folder.
+For the releases, place the builddb8.exe (or builddbx.exe) and the compressdb8.exe (or compressdbx.exe) files in a folder called db, preferably with this same dbgen.bat file either inside or just outside of the db folder.
 
