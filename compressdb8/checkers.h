@@ -26,7 +26,7 @@
 // number of pieces up to which we build databases.
 #define MAXPIECES 8 
 // maximal number of a single piece
-#define MAXPIECE 4
+#define MAXPIECE ((MAXPIECES+1)/2)
 
 // database scores 
 #define UNKNOWN 0
